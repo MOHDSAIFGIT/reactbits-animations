@@ -1,0 +1,74 @@
+{
+  "name": "reactbits-animations",
+  "version": "1.0.6",
+  "description": "A comprehensive collection of beautiful, performant React animation components including bounce effects, click sparks, star borders, scroll-triggered animations, and fade transitions.",
+  "type": "module",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.es.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    },
+    "./dist/index.css": "./dist/index.css"
+  },
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/reactbits-animations.git"
+  },
+  "homepage": "https://github.com/yourusername/reactbits-animations#readme",
+  "bugs": {
+    "url": "https://github.com/yourusername/reactbits-animations/issues"
+  },
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com"
+  },
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0 || ^19.0.0"
+  },
+  "keywords": [
+    "react",
+    "animations",
+    "reactbits",
+    "components",
+    "ui",
+    "gsap",
+    "scroll-trigger",
+    "fade",
+    "bounce",
+    "click-effects",
+    "star-border",
+    "canvas-animation",
+    "intersection-observer",
+    "typescript",
+    "modern-react"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.3",
+    "@rollup/plugin-node-resolve": "^16.0.1",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/node": "^24.0.0",
+    "@types/react": "^19.1.8",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "tslib": "^2.8.1",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0"
+  }
+}
