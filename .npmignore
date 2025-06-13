@@ -39,6 +39,9 @@ coverage/
 # Build artifacts (keep dist/)
 *.tsbuildinfo
 
+# Build outputs
+dist/
+
 # Environment files
 .env
 .env.local

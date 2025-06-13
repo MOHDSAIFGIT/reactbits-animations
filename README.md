@@ -200,13 +200,13 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 
 ## 📄 License
 
-MIT © [Your Name](https://github.com/yourusername)
+MIT © [Mohd Saif](https://github.com/mohdsaifgit)
 
 ## 🔗 Links
 
-- [GitHub Repository](https://github.com/yourusername/reactbits-animations)
+- [GitHub Repository](https://github.com/mohdsaifgit/reactbits-animations)
 - [npm Package](https://www.npmjs.com/package/reactbits-animations)
-- [Issues](https://github.com/yourusername/reactbits-animations/issues)
+- [Issues](https://github.com/mohdsaifgit/reactbits-animations/issues)
 
 ---
 
