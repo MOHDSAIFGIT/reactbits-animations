@@ -12,15 +12,15 @@ Before publishing, update the following in `package.json`:
 {
   "repository": {
     "type": "git",
-    "url": "https://github.com/YOUR_USERNAME/reactbits-animations.git"
+    "url": "https://github.com/MOHDSAIFGIT/reactbits-animations.git"
   },
-  "homepage": "https://github.com/YOUR_USERNAME/reactbits-animations#readme",
+  "homepage": "https://github.com/MOHDSAIFGIT/reactbits-animations#readme",
   "bugs": {
-    "url": "https://github.com/YOUR_USERNAME/reactbits-animations/issues"
+    "url": "https://github.com/MOHDSAIFGIT/reactbits-animations/issues"
   },
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Mohd Saif",
+    "email": "mohdsaifb173@gmail.com"
   }
 }
 ```

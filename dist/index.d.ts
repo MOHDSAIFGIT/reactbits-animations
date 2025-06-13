@@ -1,3 +1,8 @@
+export { default as SplitText } from "./SplitText";
+export { default as BlurText } from "./BlurText";
+export { default as CircularText } from "./CircularText";
+export { default as ShinyText } from "./ShinyText";
+export { default as TextPressure } from "./TextPressure";
 export { default as Bounce } from "./Bounce";
 export { default as StarBorder } from "./StarBorder";
 export { default as ClickSpark } from "./ClickSpark";
