@@ -1,6 +1,6 @@
 {
   "name": "reactbits-animations",
-  "version": "1.0.7",
+  "version": "1.0.0",
   "description": "A comprehensive collection of beautiful, performant React animation components including bounce effects, click sparks, star borders, scroll-triggered animations, and fade transitions.",
   "type": "module",
   "main": "dist/index.js",
@@ -25,15 +25,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/reactbits-animations.git"
+    "url": "https://github.com/MOHDSAIFGIT/reactbits-animations.git"
   },
-  "homepage": "https://github.com/yourusername/reactbits-animations#readme",
+  "homepage": "https://github.com/MOHDSAIFGIT/reactbits-animations#readme",
   "bugs": {
-    "url": "https://github.com/yourusername/reactbits-animations/issues"
+    "url": "https://github.com/MOHDSAIFGIT/reactbits-animations/issues"
   },
   "author": {
-    "name": "Your Name",
-    "email": "your.email@example.com"
+    "name": "Mohd Saif",
+    "url": "https://github.com/MOHDSAIFGIT"
   },
   "peerDependencies": {
     "react": "^17.0.0 || ^18.0.0 || ^19.0.0",
