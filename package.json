@@ -1,5 +1,5 @@
 {
-  "name": "reactbits-animations",
+  "name": "@mohdsaif/reactbits-animations",
   "version": "1.0.0",
   "description": "A comprehensive collection of beautiful, performant React animation components including bounce effects, click sparks, star borders, scroll-triggered animations, and fade transitions.",
   "type": "module",
