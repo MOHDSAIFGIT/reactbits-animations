@@ -88,23 +88,25 @@ const StarBorder = <T extends React.ElementType = "button">({
             }
           }
       `}</style>
-      <Component className={`star-border-container ${className}`} {...rest}>
+          {React.createElement(
+        Component,
+        { className: `star-border-container ${className}`, ...rest },
         <div
           className="border-gradient-bottom"
           style={{
             background: `radial-gradient(circle, ${color}, transparent 10%)`,
             animationDuration: speed,
           }}
-        ></div>
+        ></div>,
         <div
           className="border-gradient-top"
           style={{
             background: `radial-gradient(circle, ${color}, transparent 10%)`,
             animationDuration: speed,
           }}
-        ></div>
+        ></div>,
         <div className="inner-content">{children}</div>
-      </Component>
+      )}
     </>
   );
 };
