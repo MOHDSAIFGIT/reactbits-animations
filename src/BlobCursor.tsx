@@ -1,8 +1,7 @@
-// "use client";
+"use client";
 
 import React, { useRef, useEffect, useCallback } from "react";
 import gsap from "gsap";
-// import "./BlobCursor.css";
 
 export interface BlobCursorProps {
   blobType?: "circle" | "square";
